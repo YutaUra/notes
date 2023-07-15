@@ -89,7 +89,7 @@ make
 
 さっきの Node.js を起動されたじょうたいで以下のコマンドを実行する
 
-なぜかデフォルトの 127.0.0.1 では失敗したので
+なぜかデフォルトの 127.0.0.1 では失敗したので、 localhost に変更した
 
 ```
 ./bin/benchmarker -target-url http://localhost:8000

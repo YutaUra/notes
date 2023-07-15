@@ -26,3 +26,9 @@ failed to solve: process "/bin/sh -c apt-get update &&   apt-get -y upgrade &&  
 ```
 
 mysql-client を mariadb-client に変更したら起動することができた
+
+初期データを展開する
+
+```
+docker exec -u 0 -it isucon12-qualify-bench-1 bash
+```

@@ -64,3 +64,9 @@ https://isucon.net/archives/53805209.html
 cd initial_data
 make
 ```
+
+画像データの展開
+
+```
+curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/initial.zip
+```

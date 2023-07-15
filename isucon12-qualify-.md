@@ -45,3 +45,10 @@ cd ../..
 ```
 
 ### アプリケーションの実行
+
+一旦参考にある通りの Go でやってみる
+
+```
+cd webapp/go
+GO111MODULE=on go run api.go main.go
+```

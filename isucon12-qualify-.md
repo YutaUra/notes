@@ -9,3 +9,7 @@ isucon/isucon12-qualify を YutaUra に fork した
 ```bash
 gh repo clone YutaUra/isucon12-qualify
 ```
+
+```bash
+docker-compose up
+```

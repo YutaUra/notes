@@ -12,6 +12,8 @@ isucon/isucon12-qualify を YutaUra に fork した
 gh repo clone YutaUra/isucon12-qualify
 ```
 
+### Build する
+
 ```bash
 docker-compose up
 ```
@@ -27,7 +29,9 @@ failed to solve: process "/bin/sh -c apt-get update &&   apt-get -y upgrade &&  
 
 mysql-client を mariadb-client に変更したら起動することができた
 
-初期データを展開する
+### 初期データを展開する
+
+以下のコマンドを実行すると initial_data ディレクトリの中に色々作られる
 
 ```
 cd initial_data

@@ -64,3 +64,5 @@ pnpm i
 ```
 pnpm start
 ```
+
+http://localhost:8000/ に起動した！

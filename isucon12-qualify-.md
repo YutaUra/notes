@@ -49,6 +49,6 @@ cd ../..
 node.js で起動してみる
 
 ```
-cd webapp/go
-GO111MODULE=on go run api.go main.go
+cd webapp/nodejs
+
 ```

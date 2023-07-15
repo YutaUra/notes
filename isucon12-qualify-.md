@@ -73,6 +73,8 @@ curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/initial.
 unzip initial.zip
 rm -rf upload
 mv v3_initial_data upload
+
+cd ../../initial-data/
 curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/bench1.zip
 curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/bench2.zip
 ```

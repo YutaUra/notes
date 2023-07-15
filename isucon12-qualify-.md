@@ -40,10 +40,9 @@ tar xvf initial_data.tar.gz
 rm initial_data.tar.gz
 ```
 
-bench コンテナに入って data の準備をする
+### データベースを準備する?
 
 ```
-docker compose exec -it bench bash
-cd /home/isucon/data
-make
+cd data
+make build-for-docker-compose
 ```

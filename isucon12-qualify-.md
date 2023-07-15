@@ -80,5 +80,5 @@ unzip bench1.zip
 rm -rf images
 mv v3_bench1 images
 
-curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/bench2.zip
+cd ..
 ```

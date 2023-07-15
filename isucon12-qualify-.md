@@ -89,6 +89,8 @@ make
 
 さっきの Node.js を起動されたじょうたいで以下のコマンドを実行する
 
+なぜかデフォルトの 127.0.0.1 では失敗したので
+
 ```
-./bin/benchmarker
+./bin/benchmarker -target-url http://localhost:8000
 ```

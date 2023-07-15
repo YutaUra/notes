@@ -56,3 +56,11 @@ make
 ```
 
 bench が全然動かないんだけど
+
+参考にする
+https://isucon.net/archives/53805209.html
+
+```
+cd initial_data
+make
+```

@@ -76,5 +76,9 @@ mv v3_initial_data upload
 
 cd ../../initial-data/
 curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/bench1.zip
+unzip bench1.zip
+rm -rf images
+mv v3_bench1_data images
+
 curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/bench2.zip
 ```

@@ -45,5 +45,5 @@ bench コンテナに入って data の準備をする
 ```
 docker compose exec -it bench bash
 cd /home/isucon/data
-
+make
 ```

@@ -94,3 +94,13 @@ make
 ```
 ./bin/benchmarker -target-url http://localhost:8000
 ```
+
+実行してもタイムアウトが発生し続けちゃって困ってたんだけど、
+
+`await execFile("../sql/init.sh");` をコメントアウトしたら解決した。
+
+一旦はこれを実行しなくてもよさそうなので、コメントアウトしておく。
+
+```
+
+```

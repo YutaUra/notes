@@ -33,4 +33,5 @@ mysql-client を mariadb-client に変更したら起動することができた
 cd initial_data
 curl -LO https://github.com/isucon/isucon12-qualify/releases/download/data%2F20220712_1505-745a3fdfb5783afc048ecaebd054acd20151872d/initial_data.tar.gz
 tar xvf initial_data.tar.gz
+rm initial_data.tar.gz
 ```

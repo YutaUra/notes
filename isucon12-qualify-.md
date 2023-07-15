@@ -60,3 +60,7 @@ pnpm i
 ```
 
 起動
+
+```
+pnpm start
+```

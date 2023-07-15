@@ -43,3 +43,5 @@ cat 00_create_database.sql | mysql -h 127.0.0.1 -p
 ./init.sh
 cd ../..
 ```
+
+### アプリケーションの実行

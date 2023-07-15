@@ -44,6 +44,7 @@ rm initial_data.tar.gz
 
 ```
 cd data
+make
 make build-for-docker-compose
 ```
 

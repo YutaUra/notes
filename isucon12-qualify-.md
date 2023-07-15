@@ -50,5 +50,6 @@ make build-for-docker-compose
 ### ベンチマークを実行する
 
 ```
-
+cd bench
+make
 ```

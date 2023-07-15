@@ -39,3 +39,11 @@ curl -LO https://github.com/isucon/isucon12-qualify/releases/download/data%2F202
 tar xvf initial_data.tar.gz
 rm initial_data.tar.gz
 ```
+
+bench コンテナに入って data の準備をする
+
+```
+docker compose exec -it bench bash
+cd /home/isucon/data
+
+```

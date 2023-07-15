@@ -52,3 +52,9 @@ node.js で起動してみる
 cd webapp/nodejs
 pnpm i
 ```
+
+bcrypt のバージョンが古くて install に成功しなかったから 5.0.0 にあげて、もう一回インストール
+
+```
+pnpm i
+```

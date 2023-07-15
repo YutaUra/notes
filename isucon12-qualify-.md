@@ -4,6 +4,8 @@
 
 とりあえず動かしてみたい
 
+参考にした資料: https://blog.magnolia.tech/entry/2022/11/06/002938
+
 isucon/isucon12-qualify を YutaUra に fork した
 
 ```bash

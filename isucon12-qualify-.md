@@ -69,4 +69,5 @@ make
 
 ```
 curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/initial.zip
+curl -LO https://github.com/isucon/isucon9-qualify/releases/download/v2/bench1.zip
 ```

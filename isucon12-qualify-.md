@@ -50,5 +50,5 @@ node.js で起動してみる
 
 ```
 cd webapp/nodejs
-
+pnpm i
 ```

@@ -66,3 +66,9 @@ pnpm start
 ```
 
 http://localhost:8000/ に起動した！
+
+### 外部サービスを起動する
+
+```
+make
+```

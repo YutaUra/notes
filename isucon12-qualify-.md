@@ -25,4 +25,4 @@ docker-compose up
 failed to solve: process "/bin/sh -c apt-get update &&   apt-get -y upgrade &&   apt-get install -y wget gcc g++ make sqlite3 &&   wget -q https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb &&   apt-get -y install ./mysql-apt-config_*_all.deb &&   apt-get -y update &&   apt-get -y install mysql-client" did not complete successfully: exit code: 100
 ```
 
-mysql-client を mariadb-client に変更した
+mysql-client を mariadb-client に変更したら起動することができた

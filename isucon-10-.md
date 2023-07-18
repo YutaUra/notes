@@ -71,3 +71,7 @@ sudo systemctl enable  isuumo.nodejs.service
 ```
 
 もう一度 bench を実行してみる
+
+```
+./bench/bench -target-url http://127.0.0.1
+```

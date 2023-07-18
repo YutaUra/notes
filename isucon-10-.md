@@ -46,3 +46,14 @@ bench
 cd isuumo/bench
 ./bench -target-url http://127.0.0.1
 ```
+
+おぉ〜
+
+```
+isucon@ip-172-31-35-66:~/isuumo/bench$ ./bench -target-url http://127.0.0.1
+2023/07/18 00:34:29 bench.go:78: === initialize ===
+2023/07/18 00:34:48 bench.go:90: === verify ===
+2023/07/18 00:34:50 bench.go:100: === validation ===
+2023/07/18 00:35:50 bench.go:102: 最終的な負荷レベル: 0
+{"pass":true,"score":252,"messages":[],"reason":"OK","language":"go"}
+```

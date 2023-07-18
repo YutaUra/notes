@@ -2,4 +2,4 @@
 
 https://github.com/matsuu/aws-isucon/tree/main/isucon10-qualify
 
-起動してみる？
+AWS で起動してみる

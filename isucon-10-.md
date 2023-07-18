@@ -33,3 +33,9 @@ ssh 接続する
 ```
 ssh isucon10
 ```
+
+ユーザー切り替え
+
+```
+sudo -i -u isucon
+```

@@ -57,3 +57,6 @@ isucon@ip-172-31-35-66:~/isuumo/bench$ ./bench -target-url http://127.0.0.1
 2023/07/18 00:35:50 bench.go:102: 最終的な負荷レベル: 0
 {"pass":true,"score":252,"messages":[],"reason":"OK","language":"go"}
 ```
+
+VSCode の Remote SSH で接続する
+フォルダは /home/isucon/isuumo にする

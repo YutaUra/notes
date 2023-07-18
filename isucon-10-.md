@@ -23,3 +23,7 @@ Host isucon10
     UseKeychain yes
     AddKeysToAgent yes
 ```
+
+```
+ssh -T isucon10
+```

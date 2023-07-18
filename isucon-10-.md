@@ -58,5 +58,7 @@ isucon@ip-172-31-35-66:~/isuumo/bench$ ./bench -target-url http://127.0.0.1
 {"pass":true,"score":252,"messages":[],"reason":"OK","language":"go"}
 ```
 
+Go じゃなくて、 Node でうごかしてみる 
+
 VSCode の Remote SSH で接続する
 フォルダは /home/isucon/isuumo にする

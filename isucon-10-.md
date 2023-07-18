@@ -39,3 +39,10 @@ ssh isucon10
 ```
 sudo -i -u isucon
 ```
+
+bench
+
+```
+cd isuumo/bench
+./bench -target-url http://127.0.0.1
+```

@@ -29,3 +29,7 @@ ssh -T isucon10
 ```
 
 ssh 接続する
+
+```
+ssh isucon10
+```

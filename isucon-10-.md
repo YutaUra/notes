@@ -11,3 +11,15 @@ AWS で起動してみる
 インスタンスタイプはとりあえず t2.micro にした
 
 キーペアを作成し、起動
+
+ssh config を作成し、疎通確認
+
+```
+Host isucon10
+    User root
+    HostName xxx.ap-northeast-1.compute.amazonaws.com
+    IdentityFile ~/.ssh/Isucon10KeyPair.pem
+    IdentitiesOnly yes
+    UseKeychain yes
+    AddKeysToAgent yes
+```

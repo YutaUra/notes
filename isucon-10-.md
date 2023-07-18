@@ -69,3 +69,5 @@ sudo systemctl disable isuumo.go.service
 sudo systemctl start   isuumo.nodejs.service
 sudo systemctl enable  isuumo.nodejs.service
 ```
+
+もう一度 bench を実行してみる

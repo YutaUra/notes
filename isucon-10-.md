@@ -100,3 +100,9 @@ cd bench
 2023/07/18 00:43:43 bench.go:94: verify failed
 {"pass":false,"score":0,"messages":[{"text":"POST /api/estate/nazotte: レスポンスが不正です","count":1}],"reason":"スコアが0点を下回りました","language":"nodejs"
 ```
+
+ログを見てみるか
+
+```
+journalctl -u isuumo.nodejs
+```

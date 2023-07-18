@@ -27,3 +27,5 @@ Host isucon10
 ```
 ssh -T isucon10
 ```
+
+ssh 接続する

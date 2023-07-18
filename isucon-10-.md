@@ -106,3 +106,20 @@ cd bench
 ```
 journalctl -u isuumo.nodejs
 ```
+
+```
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]: (node:4127) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'map' of undefined
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at /home/isucon/isuumo/webapp/nodejs/app.js:456:34
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at Layer.handle [as handle_request] (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at next (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router/route.js:137:13)
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at Route.dispatch (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router/route.js:112:3)
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at Layer.handle [as handle_request] (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at /home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router/index.js:281:22
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at Function.process_params (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router/index.js
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at next (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router/index.js:275:10)
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at jsonParser (/home/isucon/isuumo/webapp/nodejs/node_modules/body-parser/lib/types/json.js:110:7)
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]:     at Layer.handle [as handle_request] (/home/isucon/isuumo/webapp/nodejs/node_modules/express/lib/router
+Jul 18 00:44:50 ip-172-31-35-66 npm[3672]: (Use `node --trace-warnings ...` to show where the warning was created)
+```
+
+エラーになっとったわ

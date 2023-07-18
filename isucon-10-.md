@@ -16,7 +16,7 @@ ssh config を作成し、疎通確認
 
 ```
 Host isucon10
-    User root
+    User ubuntu
     HostName xxx.ap-northeast-1.compute.amazonaws.com
     IdentityFile ~/.ssh/Isucon10KeyPair.pem
     IdentitiesOnly yes

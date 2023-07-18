@@ -76,3 +76,27 @@ sudo systemctl enable  isuumo.nodejs.service
 cd bench
 ./bench -target-url http://127.0.0.1
 ```
+
+あれ、失敗だ
+
+```
+2023/07/18 00:43:28 bench.go:78: === initialize ===
+2023/07/18 00:43:38 bench.go:90: === verify ===
+2023/07/18 00:43:40 fails.go:105: [scenario.verifyEstateNazotte] /home/isucon/isuumo/bench/scenario/verifyWithSnapshot.go:432
+    message("POST /api/estate/nazotte: レスポンスが不正です")
+    code(error application)
+[client.(*Client).SearchEstatesNazotte] /home/isucon/isuumo/bench/client/webapp.go:367
+    message("POST /api/estate/nazotte: リクエストに失敗しました")
+[client.(*Client).Do] /home/isucon/isuumo/bench/client/client.go:136
+    code(error timeout)
+    *url.Error("Post \"http://127.0.0.1/api/estate/nazotte\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)")
+    *http.httpError("context deadline exceeded (Client.Timeout exceeded while awaiting headers)")
+[CallStack]
+    [client.(*Client).Do] /home/isucon/isuumo/bench/client/client.go:136
+    [client.(*Client).SearchEstatesNazotte] /home/isucon/isuumo/bench/client/webapp.go:361
+    [scenario.verifyEstateNazotte] /home/isucon/isuumo/bench/scenario/verifyWithSnapshot.go:427
+    [scenario.verifyWithSnapshot.func10] /home/isucon/isuumo/bench/scenario/verifyWithSnapshot.go:638
+    [runtime.goexit] /home/isucon/local/go/src/runtime/asm_amd64.s:1373
+2023/07/18 00:43:43 bench.go:94: verify failed
+{"pass":false,"score":0,"messages":[{"text":"POST /api/estate/nazotte: レスポンスが不正です","count":1}],"reason":"スコアが0点を下回りました","language":"nodejs"
+```

@@ -31,10 +31,9 @@ brew install automake ccache cmake coreutils gnu-sed go libiconv libtool ninja p
 
 https://github.com/marler8997/zigup/releases から zigup をダウンロードして、解凍した中身をパスの通ったところに置く。
 
-````sh
 ```sh
 
-````
+```
 
 Bun のビルドを開始する
 

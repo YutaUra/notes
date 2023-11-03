@@ -29,9 +29,12 @@ brew install automake ccache cmake coreutils gnu-sed go libiconv libtool ninja p
 
 次に zig をインストールする。 zig のバージョンが低いとビルドできないので、最新のものをインストールする。
 
+https://github.com/marler8997/zigup/releases から zigup をダウンロードして、解凍した中身をパスの通ったところに置く。
+
+````sh
 ```sh
-bun install -g @oven/zig
-```
+
+````
 
 Bun のビルドを開始する
 

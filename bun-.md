@@ -8,3 +8,9 @@ bun 自体を install する
 brew tap oven-sh/bun
 brew install bun
 ```
+
+llvm をインストールする
+
+```sh
+brew install llvm@16
+```

@@ -26,3 +26,9 @@ Bun の dependency をインストールする
 ```sh
 brew install automake ccache cmake coreutils gnu-sed go libiconv libtool ninja pkg-config rust
 ```
+
+次に zig をインストールする
+
+```sh
+bun install -g @oven/zig
+```

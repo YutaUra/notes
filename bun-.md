@@ -27,7 +27,7 @@ Bun の dependency をインストールする
 brew install automake ccache cmake coreutils gnu-sed go libiconv libtool ninja pkg-config rust
 ```
 
-次に zig をインストールする
+次に zig をインストールする。 zig のバージョンが低いとビルドできないので、最新のものをインストールする。
 
 ```sh
 bun install -g @oven/zig

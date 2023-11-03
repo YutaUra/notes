@@ -31,7 +31,6 @@ brew install automake ccache cmake coreutils gnu-sed go libiconv libtool ninja p
 
 ```sh
 bun install -g @oven/zig
-zigup 0.12.0-dev.1297+a9e66ed73
 ```
 
 Bun のビルドを開始する

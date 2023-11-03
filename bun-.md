@@ -20,3 +20,9 @@ brew install llvm@16
 ```sh
 export PATH="$PATH:$(brew --prefix llvm@16)/bin"
 ```
+
+Bun の dependency をインストールする
+
+```sh
+brew install automake ccache cmake coreutils gnu-sed go libiconv libtool ninja pkg-config rust
+```

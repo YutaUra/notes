@@ -38,9 +38,14 @@ $ zigup 0.12.0-dev.1297+a9e66ed73
 Bun のビルドを開始する
 
 ```sh
-bun setup
+$ bun setup
 ```
 
-```
+無事にビルドが完了すると build/bun-debug に bun ができている。
 
+```sh
+$ build/bun-debug --version
+[SYS] read(3, 4096) = 4096 (0.136ms)
+[SYS] close(3)
+1.0.9-debug
 ```

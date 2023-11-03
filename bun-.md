@@ -15,10 +15,10 @@ llvm をインストールする
 brew install llvm@16
 ```
 
-パスを追加する
+パスを追加する。
 
 ```sh
-export PATH="$PATH:$(brew --prefix llvm@16)/bin"
+export PATH="$(brew --prefix llvm@16)/bin:$PATH"
 ```
 
 Bun の dependency をインストールする

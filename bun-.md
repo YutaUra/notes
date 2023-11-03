@@ -14,3 +14,9 @@ llvm をインストールする
 ```sh
 brew install llvm@16
 ```
+
+パスを追加する
+
+```sh
+export PATH="$PATH:$(brew --prefix llvm@16)/bin"
+```
